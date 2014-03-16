@@ -4,6 +4,7 @@ use Closure;
 use Mailgun\Mailgun as Mg;
 use Illuminate\View\Environment;
 use Illuminate\Support\Facades\Config;
+use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 
 class Mailgun
 {
